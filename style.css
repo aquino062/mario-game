@@ -5,8 +5,12 @@
 
 }
 
+body{
+    background-color: white;
+}
+
 .game-board {
-    width: 100%;
+    width: 80%;
     height: 500px;
     border-bottom: 15px solid rgb(20, 209, 20);
     margin: 0 auto;
@@ -40,6 +44,33 @@
     width: 300px;
     position: absolute;
     animation: nuvens-animation 20s infinite linear;
+}
+
+.score{
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.ponto{
+    color: black;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.gameover{
+    display: none;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+}
+
+#restartbutton{
+    display: none;
+    width: 150px;
+    color: black;
+    margin: auto;
+    background-color: red;
+    border-radius: 3px;
 }
 
 @keyframes tubo-animation {
